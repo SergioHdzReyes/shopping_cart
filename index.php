@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Carrito de compras</title>
+    <script src="js/jquery-3.1.0.min.js"></script>
 </head>
 <body>
     <h1>Hello World!</h1>
