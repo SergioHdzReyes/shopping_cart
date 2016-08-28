@@ -1,4 +1,7 @@
-<?php include_once('cart_class.php') ?>
+<?php
+error_reporting(E_ALL);
+include_once('cart_class.php')
+?>
 
 <html>
 <head>
@@ -7,9 +10,9 @@
 <body>
     <h1>Hello World!</h1>
     <?php
-    $cart = new cart();
+    $cart = new Cart();
+    $cart->add_product(34.5, 5, 'Pantalon Mezclilla');
     var_dump($cart);
-    echo 'test';
     ?>
 </body>
 </html>

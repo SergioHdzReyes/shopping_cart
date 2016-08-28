@@ -6,23 +6,38 @@ include_once('product_class.php');
  * Class cart
  */
 
-class cart
+class Cart
 {
     /**
      * @var $productos array Array de objetos por cada producto
      */
     var $productos;
+    /**
+     * @var $total int Obtiene total de poductos
+     */
     var $total;
 
-    function productos(){
+    /**
+     * Cart constructor.
+     */
+    function cart(){
         $this->total = 0;
         $this->productos = array();
     }
 
-    function add_product($price = 0, $quantity = 0, $name = ''){
-        $this->productos[] = new product($price, $quantity, $name);
+    /**
+     * @param int $price
+     * @param int $quantity
+     * @param string $name
+     * @param string $code
+     */
+    function add_product($price = 0, $quantity = 0, $name = '', $code = ''){
+        $this->productos[] = new Product($price, $quantity, $name, $code);
     }
 
+    /**
+     * @return int
+     */
     function get_total_products(){
         $total = 0;
         foreach($this->productos as $item){
