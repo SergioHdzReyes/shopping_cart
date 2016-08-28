@@ -11,5 +11,6 @@
     var_dump($cart);
     echo 'test';
     ?>
+<h2>EL gallo de Baez</h2>
 </body>
 </html>
