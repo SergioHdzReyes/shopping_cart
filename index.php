@@ -14,5 +14,6 @@ include_once('cart_class.php')
     $cart->add_product(34.5, 5, 'Pantalon Mezclilla');
     var_dump($cart);
     ?>
+<h2>EL gallo de Baez</h2>
 </body>
 </html>
