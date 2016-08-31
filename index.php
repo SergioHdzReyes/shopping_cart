@@ -39,7 +39,7 @@
     </div>
 </nav>
     <h1>Hello World!</h1>
-<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
