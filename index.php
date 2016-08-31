@@ -4,7 +4,7 @@
 <head>
     <title>Carrito de compras</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
+    <script src="js/jquery-3.1.0.min.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-default">
