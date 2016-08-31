@@ -1,10 +1,10 @@
 <?php include_once('cart_class.php') ?>
-
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="utf-8">
     <title>Carrito de compras</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.1.0.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -39,12 +39,7 @@
     </div>
 </nav>
     <h1>Hello World!</h1>
-    <?php
-    $cart = new cart();
-    var_dump($cart);
-    echo 'test';
-    ?>
-
-<h2>EL gallo de Baez</h2>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
