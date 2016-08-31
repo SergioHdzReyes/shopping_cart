@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-include_once('cart_class.php')
+include_once('includes/cart_class.php')
 ?>
 
 <html>
