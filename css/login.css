@@ -1,0 +1,5 @@
+html {margin: 0px; padding:0px;}
+
+.login {border-radius: 4px; margin:50px auto; width:320px;}
+
+input[type="submit"]{margin-top: 20px;}
