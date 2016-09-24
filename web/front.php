@@ -9,7 +9,7 @@ $routes = require __DIR__.'/../src/app.php';
 $context = new Routing\RequestContext();
 $context->fromRequest($request);
 $matcher = new Routing\Matcher\UrlMatcher($routes, $context);
-d($matcher);
+
 try{
     extract($matcher->match($request->getPathInfo()), EXTR_SKIP);
     ob_start();
